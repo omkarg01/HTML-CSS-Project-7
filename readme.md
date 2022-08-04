@@ -5,7 +5,7 @@
 ![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
 ![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
 
-## Project 7 [Live Link](https://62e2ba36569b03449d8e96b3--resplendent-travesseiro-0bafbd.netlify.app/)
+## Project 7 [Live Link](https://product-og.netlify.app)
 
 -   Skills Gained in this project
     -   Gained indepth knowledge of flexbox.
