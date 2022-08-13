@@ -258,11 +258,21 @@ h3 img {
 
     .action-btns {
         display: flex;
+        margin-left: 2rem;
     }
 
     .action-btn {
+        padding: 1rem;
         font-size: 1.2rem;
     }
 
-    
+    .left-section h3{
+        font-size: 3rem;
+        width: fit-content;
+    }
+
+    .left-section h3 img{
+        display: inline-block;
+        position: static;
+    }
 }
