@@ -210,3 +210,59 @@ h3 img {
 .black-dot {
     background-color: black;
 }
+
+@media (width <=425px) {
+    .nav-items {
+        display: none;
+    }
+
+    .img-actions {
+        overflow: hidden;
+    }
+
+    .intro-section {
+        flex-direction: column-reverse;
+    }
+
+    .right-section {
+        margin-inline: auto;
+        margin-top: 5rem;
+    }
+
+    .dots {
+        width: 100%;
+    }
+
+    .left-section {
+        margin-inline: auto;
+        width: 100%;
+    }
+
+    .left-section h1 {
+        font-size: 5rem;
+    }
+
+    .sub-headline {
+        font-size: 1.5rem;
+    }
+
+    .sub-headline {
+        width: fit-content;
+        margin-left: 5rem;
+    }
+
+    .text {
+        width: fit-content;
+        text-align: center;
+    }
+
+    .action-btns {
+        display: flex;
+    }
+
+    .action-btn {
+        font-size: 1.2rem;
+    }
+
+    
+}
