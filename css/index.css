@@ -215,9 +215,13 @@ h3 img {
     .nav-items {
         display: none;
     }
+    nav > img {
+        margin-inline: 3rem;
+    }
 
-    .img-actions {
-        overflow: hidden;
+    .img-actions img{
+        width: 80%;
+        object-fit: cover;
     }
 
     .intro-section {
