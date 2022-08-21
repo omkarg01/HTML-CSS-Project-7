@@ -212,6 +212,7 @@ h3 img {
 }
 
 @media (width <=425px) {
+    nav 
     .nav-items {
         display: none;
     }
