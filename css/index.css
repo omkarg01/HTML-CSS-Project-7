@@ -26,9 +26,13 @@ nav {
     margin-top: 5rem;
 }
 
-nav img:nth-child(1) {
-    flex: 2;
+.fa-solid.fa-bars {
+    display: none;
+}
+
+nav img {
     height: 4rem;
+    padding-left: 10rem;
 }
 
 .nav-items {
@@ -212,48 +216,107 @@ h3 img {
 }
 
 @media (width <=425px) {
-    nav 
-    .nav-items {
-        display: none;
-    }
-    nav > img {
-        margin-inline: 3rem;
+    .fa-solid.fa-bars {
+        display: block;
+        padding-right: 2rem;
     }
 
-    .img-actions img{
+    nav {
+        margin-top: 2rem;
+        justify-content: space-between;
+    }
+
+    .nav-items,
+    .img-actions {
+        display: none;
+    }
+
+    nav>img {
+        /* width: 2rem; */
+        margin: 0;
+        padding-left: 2rem;
+        height: 3rem;
+
+    }
+
+    .img-actions img {
         width: 80%;
         object-fit: cover;
     }
 
     .intro-section {
         flex-direction: column-reverse;
+        width: 90%;
+        margin: 0;
+        margin-inline: auto;
+        margin-top: 3rem;
     }
 
     .right-section {
         margin-inline: auto;
-        margin-top: 5rem;
+        margin: 0;
+        border: 2px solid rebeccapurple;
+        width: 100%;
+        padding: 0;
     }
 
-    .dots {
+    .discount {
+        display: none;
+    }
+
+    .discount-content {
+        display: none;
+    }
+
+    .headphone-div {
+        height: fit-content;
         width: 100%;
+        /* display: none; */
+        position: relative;
+        bottom: 0;
+        border: 2px solid saddlebrown;
+    }
+
+    .headphone-div .headphone {
+        width: 100%;
+        height: 100%;
+        /* display: none; */
+    }
+
+
+
+    .dots {
+        width: 50%;
+        border: 2px solid yellow;
+        margin-block: 2rem;
     }
 
     .left-section {
         margin-inline: auto;
         width: 100%;
+        margin-top: 2rem;
     }
 
     .left-section h1 {
-        font-size: 5rem;
+        font-size: 3.5rem;
+        text-align: center;
+        margin-block: 1rem;
+    }
+
+    .sub-headlines {
+        margin-block: 2rem;
     }
 
     .sub-headline {
         font-size: 1.5rem;
+        width: fit-content;
+        margin-block: 1.5rem;
+        margin-inline: 0;
+        margin-left: 8rem;
     }
 
-    .sub-headline {
-        width: fit-content;
-        margin-left: 5rem;
+    .sub-headline img {
+        height: 2.5rem;
     }
 
     .text {
@@ -263,21 +326,31 @@ h3 img {
 
     .action-btns {
         display: flex;
-        margin-left: 2rem;
+        border: 2px solid darkgreen;
+        width: fit-content;
+        margin-inline: auto;
+        gap: 2rem;
     }
 
     .action-btn {
-        padding: 1rem;
-        font-size: 1.2rem;
+        padding: 0.8rem 1.5rem;
+        font-size: 1.5rem;
+        margin: 0;
     }
 
-    .left-section h3{
+    .action-btns>.action-btn{
+        margin-right: 0rem;
+    }
+
+    .left-section h3 {
         font-size: 3rem;
         width: fit-content;
+        margin-inline: auto;
     }
 
-    .left-section h3 img{
+    .left-section h3 img {
         display: inline-block;
         position: static;
+        height: 3rem;
     }
 }
