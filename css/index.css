@@ -255,7 +255,6 @@ h3 img {
     .right-section {
         margin-inline: auto;
         margin: 0;
-        border: 2px solid rebeccapurple;
         width: 100%;
         padding: 0;
     }
@@ -274,7 +273,6 @@ h3 img {
         /* display: none; */
         position: relative;
         bottom: 0;
-        border: 2px solid saddlebrown;
     }
 
     .headphone-div .headphone {
@@ -287,7 +285,6 @@ h3 img {
 
     .dots {
         width: 50%;
-        border: 2px solid yellow;
         margin-block: 2rem;
     }
 
@@ -326,7 +323,6 @@ h3 img {
 
     .action-btns {
         display: flex;
-        border: 2px solid darkgreen;
         width: fit-content;
         margin-inline: auto;
         gap: 2rem;
